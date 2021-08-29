@@ -1,0 +1,26 @@
+/*Float to left*/
+examplefloat{
+    float:right
+}
+/*Text can be aligned using text-align , float or position*/
+itemalign{
+    text-align: center;
+}
+/*combinators may include descendant selectors or child selectors*/
+div p{
+    background-size: contain;
+}
+/*psuedo classes are used to style the elements, here it is to hover around
+ the division*/
+
+div:hover{
+background-color: #00bb00;
+}
+/*psuedo elements can be use to style specific elements*/
+/* Here i am using opacity along with hovering along first element using pseudo element*/
+p:first-letter{
+    background-color: #00bb00;
+    opacity: 0.5;
+}
+    
+

@@ -1,0 +1,39 @@
+/* This is used to show the drop down when overed along a random text*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+/*Image gallery the class created has to imported to the specified html tag*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+/*It helps in putting together image, here I used the id to ensure it works on everyid*/
+#testimagesprites{
+    width: 46px;
+    height: 44px;
+    background: url(images.gif) 0 0;
+}
+/*attribute for target element in the link*/
+a[target] {
+    background-color: blue;
+}
+/*examples of css website layout*/
+#layout {
+    background-color: #f1b0b7;
+    text-align: top;
+    padding: 50px;
+}
