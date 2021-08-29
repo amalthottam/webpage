@@ -1,0 +1,21 @@
+/*this is a comment for the question*/
+boxMargin {
+    width: 400px;
+    border: 15px solid blue;
+    padding: 60px;
+    margin: 30px;
+}
+/*css outline*/
+p.double {border-style: double;}
+p.dotted {border-style: dotted;}
+
+/*css text properties*/
+textproperties {
+    background-color: lightblue;
+    color: black;
+}
+/*css fonts*/
+ fontfamily{
+    font-family: "Times New Roman", Times, serif;
+}
+ 
